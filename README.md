@@ -1,8 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# dockerizing-multi-services-app
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+
+In the project directory, we build, test, and deploy Docker applications with Kubernetes.
+Also, you can run:
 
 ### `npm start`
 
