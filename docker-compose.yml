@@ -4,6 +4,13 @@ services:
         image: 'postgres:10'
     redis:
         image: 'redis:4.0.11'
+    nginx:
+        restart: always
+        build: 
+            dockerfile: Dockerfile.dex
+            context: ./nginx
+        ports: 
+            - '3050:80'
     api:
         build: 
             dockerfile: Dockerfile.dev
