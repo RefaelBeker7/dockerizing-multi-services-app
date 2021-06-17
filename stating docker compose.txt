@@ -1,0 +1,19 @@
+Start Docker Compose:
+
+$ docker-compose up --build
+
+--------- ERROR: Service 'nginx' failed to build ------------
+The solution they found was to add this to their nginx service in the docker-compose.yml file:
+nginx:
+    depends_on:
+      - api
+      - client
+
+After try again the build
+---------------------- END ------------------------------
+
+$ docker-compose up
+
+--------------------
+Then try localhost:3050 (nginx)
+--------------------

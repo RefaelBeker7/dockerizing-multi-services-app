@@ -5,9 +5,12 @@ services:
     redis:
         image: 'redis:4.0.11'
     nginx:
+        depends_on:
+            - api
+            - client
         restart: always
         build: 
-            dockerfile: Dockerfile.dex
+            dockerfile: Dockerfile.dev
             context: ./nginx
         ports: 
             - '3050:80'
