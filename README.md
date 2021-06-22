@@ -1,11 +1,30 @@
 # multi-docker-fibonacci-app
+---
 [![Generic badge](https://img.shields.io/badge/Done-Progress-<COLOR>.svg)](https://shields.io/)
 <br />
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-## Available Scripts
+Simple "Dockerizing" multiple services.
 
-In the project directory, we build, test, and deploy Docker applications with Kubernetes.
+
+## Technology
+---
+The following are the key technologies used in the project:
+
+- 
+
+## Installation & Run
+---
+1. Clone the repository of multi-docker-fibonacci-app: <br />
+```$ git clone https://github.com/RefaelBeker7/multi-docker-fibonacci-app.git```
+
+2. Start Docker Compose: <br />
+```docker-compose up --build```
+
+3. Already built: <br />
+```docker-compose up```
+
+3. Open url http://localhost:3050/ in your browser.
 
 ## Build by Travis-CI
 
@@ -29,3 +48,6 @@ In the project directory, we build, test, and deploy Docker applications with Ku
 
 > ![](https://github.com/RefaelBeker7/dockerizing-multi-services-app-fibonacci/blob/main/screenshots/fibi_page_view.png)
 
+License
+---
+MIT [@RefaelBeker](https://github.com/RefaelBeker7)
