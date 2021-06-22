@@ -15,6 +15,9 @@ In the project directory, we build, test, and deploy Docker applications with Ku
 
 > ![](https://github.com/RefaelBeker7/dockerizing-multi-services-app-fibonacci/blob/main/screenshots/fib_calculator_pro3.png)
 
+> AWS - RDS
+![](https://github.com/RefaelBeker7/dockerizing-multi-services-app-fibonacci/blob/main/screenshots/AWS_diagram.png)
+
 ## Example page view
 
 > ![](https://github.com/RefaelBeker7/dockerizing-multi-services-app-fibonacci/blob/main/screenshots/fib_calculator_project.png)
